@@ -25,11 +25,11 @@ Arduino library for ozone gas sensor MQ131
  * Heater is controlled by NPN transistor via the control pin (on schema pin 2, yellow connector)
  * Result of the sensor is read through analog with RL of 10kΩ (on schema pin A0, green connector)
  
-![Breadboard schematics](img/MQ131_bb.png)
+![Breadboard schematics](./img/MQ131_bb.png)
 
-![MQ131 pinout](img/MQ131_pinout.png)
+![MQ131 pinout](./img/MQ131_pinout.png)
 
-![Schematics](img/MQ131_schem.png)
+![Schematics](./img/MQ131_schem.png)
 
 ## Basic program to use your MQ131
 ```
