@@ -9,7 +9,7 @@ Arduino library for ozone gas sensor MQ131
  * It is important to respect the pinout of the sensor. If you put Vcc on the sensor and not on the heater, __you could damage your sensor irreversibly.__ 
  * Sensor MQ131 requires minimum 48h preheat time before giving consistent results (also called "burn-in" time)
  * There are two different MQ131; a black bakelite sensor for low concentration of ozone and a metal sensor for high concentration of ozone.
- * This driver is made to control the "naked" [Winsen](https://www.winsen-sensor.com) MQ131. The driver is able to pilot the [low concentration version](https://github.com/ostaquet/Arduino-MQ131-driver/blob/master/datasheet/MQ131-low-concentration.pdf) and the [high concentration version](https://github.com/ostaquet/Arduino-MQ131-driver/blob/master/datasheet/MQ131-high-concentration.pdf).
+ * This driver is made to control the "naked" [Winsen](https://www.winsen-sensor.com) MQ131. The driver is able to pilot the [low concentration version](https://github.com/riteshRcH/Arduino-MQ131-driver/blob/master/datasheet/MQ131-low-concentration.pdf) and the [high concentration version](https://github.com/riteshRcH/Arduino-MQ131-driver/blob/master/datasheet/MQ131-high-concentration.pdf).
  * To measure the air quality (e.g. pollution), it's better to use the low concentration MQ131 because the high concentration is not accurate enough for low concentration.
  
 ## How to install the library?
@@ -140,6 +140,6 @@ MQ131.setEnv(23, 70);
 
 
 ## Links
- * [Calculation of sensitivity curves](https://github.com/ostaquet/Arduino-MQ131-driver/blob/master/datasheet/Sensitivity_curves.xlsx)
- * [Datasheet MQ131 low concentration (black bakelite version)](https://github.com/ostaquet/Arduino-MQ131-driver/blob/master/datasheet/MQ131-low-concentration.pdf)
- * [Datasheet MQ131 high concentration (metal version)](https://github.com/ostaquet/Arduino-MQ131-driver/blob/master/datasheet/MQ131-high-concentration.pdf)
+ * [Calculation of sensitivity curves](https://github.com/riteshRcH/Arduino-MQ131-driver/blob/master/datasheet/Sensitivity_curves.xlsx)
+ * [Datasheet MQ131 low concentration (black bakelite version)](https://github.com/riteshRcH/Arduino-MQ131-driver/blob/master/datasheet/MQ131-low-concentration.pdf)
+ * [Datasheet MQ131 high concentration (metal version)](https://github.com/riteshRcH/Arduino-MQ131-driver/blob/master/datasheet/MQ131-high-concentration.pdf)
