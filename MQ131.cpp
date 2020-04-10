@@ -2,8 +2,6 @@
  * Arduino-MQ131-driver                                                       *
  * --------------------                                                       *
  * Arduino driver for gas sensor MQ131 (O3)                                   *
- * Author: Olivier Staquet                                                    *
- * Last version available on https://github.com/ostaquet/Arduino-MQ131-driver *
  ******************************************************************************/
 
  #include "MQ131.h"
